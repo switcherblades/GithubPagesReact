@@ -1,4 +1,5 @@
 {
+  "homepage": "https://switcherblades.github.io/GithubPagesReact",
   "name": "template-for-node",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gp-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
